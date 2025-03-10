@@ -1,0 +1,100 @@
+[
+  {
+    "filename": "equipment-チキンラーメン-20Fl.png",
+    "category": "equipment",
+    "file_size_bytes": 80673,
+    "file_size_kb": 78.78,
+    "last_modified": "2025-03-10 13:33:23",
+    "image": {
+      "width": 1003,
+      "height": 645,
+      "format": "PNG",
+      "mode": "RGBA"
+    },
+    "relative_path": "equipment/equipment-チキンラーメン-20Fl.png"
+  },
+  {
+    "filename": "equipment-マーカーコーン-20Fl.png",
+    "category": "equipment",
+    "file_size_bytes": 22312,
+    "file_size_kb": 21.79,
+    "last_modified": "2025-03-10 13:33:22",
+    "image": {
+      "width": 595,
+      "height": 485,
+      "format": "PNG",
+      "mode": "RGBA"
+    },
+    "relative_path": "equipment/equipment-マーカーコーン-20Fl.png"
+  },
+  {
+    "filename": "equipment-ミニハードル-20Fl.png",
+    "category": "equipment",
+    "file_size_bytes": 5493,
+    "file_size_kb": 5.36,
+    "last_modified": "2025-03-10 13:33:23",
+    "image": {
+      "width": 334,
+      "height": 607,
+      "format": "PNG",
+      "mode": "RGB"
+    },
+    "relative_path": "equipment/equipment-ミニハードル-20Fl.png"
+  },
+  {
+    "filename": "equipment-救援物資運搬ミッション図解-20Fl.png",
+    "category": "equipment",
+    "file_size_bytes": 136262,
+    "file_size_kb": 133.07,
+    "last_modified": "2025-03-10 13:33:22",
+    "image": {
+      "width": 970,
+      "height": 686,
+      "format": "PNG",
+      "mode": "RGBA"
+    },
+    "relative_path": "equipment/equipment-救援物資運搬ミッション図解-20Fl.png"
+  },
+  {
+    "filename": "equipment-滑走路-20Fl.png",
+    "category": "equipment",
+    "file_size_bytes": 26697,
+    "file_size_kb": 26.07,
+    "last_modified": "2025-03-10 13:33:23",
+    "image": {
+      "width": 407,
+      "height": 222,
+      "format": "PNG",
+      "mode": "RGBA"
+    },
+    "relative_path": "equipment/equipment-滑走路-20Fl.png"
+  },
+  {
+    "filename": "equipment-識別用紙_不正解の台-20Fl.png",
+    "category": "equipment",
+    "file_size_bytes": 13904,
+    "file_size_kb": 13.58,
+    "last_modified": "2025-03-10 13:33:23",
+    "image": {
+      "width": 1999,
+      "height": 1413,
+      "format": "PNG",
+      "mode": "RGBA"
+    },
+    "relative_path": "equipment/equipment-識別用紙_不正解の台-20Fl.png"
+  },
+  {
+    "filename": "equipment-識別用紙_正解の台-20Fl.png",
+    "category": "equipment",
+    "file_size_bytes": 30244,
+    "file_size_kb": 29.54,
+    "last_modified": "2025-03-10 13:33:23",
+    "image": {
+      "width": 1999,
+      "height": 1413,
+      "format": "PNG",
+      "mode": "RGBA"
+    },
+    "relative_path": "equipment/equipment-識別用紙_正解の台-20Fl.png"
+  }
+]
