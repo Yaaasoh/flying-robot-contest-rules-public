@@ -1,0 +1,56 @@
+site_name: 飛行ロボットコンテスト ルール管理
+site_url: https://yaaasoh.github.io/flying-robot-contest-rules-public/
+site_description: 飛行ロボットコンテストのルールとレギュレーションを管理するためのリポジトリ
+site_author: 飛行ロボットコンテスト実行委員会
+
+repo_url: https://github.com/Yaaasoh/flying-robot-contest-rules-public
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: ja
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.share
+  palette:
+    primary: indigo
+    accent: deep purple
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - search
+
+nav:
+  - ホーム: index.md
+  - ルール:
+      - ビギナー部門: beginner/index.md
+      - 通常部門: regular/index.md
+  - リソース:
+      - 画像ギャラリー: image-gallery.md
+
+copyright: '&copy; 2025 飛行ロボットコンテスト実行委員会'
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Yaaasoh/flying-robot-contest-rules-public
+  contest_year: 2025
