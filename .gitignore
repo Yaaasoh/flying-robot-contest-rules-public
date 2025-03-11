@@ -1,62 +1,19 @@
-# macOS system files
-.DS_Store
-.AppleDouble
-.LSOverride
+﻿# MkDocs ビルド成果物
+site/
 
-# Windows system files
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
+# スクリプトとデバッグファイル
+*.py
+image_debug_results.json
 
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+# バックアップファイル
+*.backup
+*.backup-*
+*.backup[0-9]*
+backups/
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# メタデータファイル
+docs/metadata/*.json
 
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Temporary files
-*.tmp
-*.bak
-*~
-
-# Logs
+# その他の一時ファイル
 *.log
-
-# Backup files
-*.bak
-*.gho
-*.ori
-*.orig
-*.tmp
-
-# Project-specific exclusions
-*.env
-local_settings.py
-config.ini
+.DS_Store
