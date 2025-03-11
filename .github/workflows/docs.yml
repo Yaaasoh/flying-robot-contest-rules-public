@@ -17,6 +17,10 @@ on:
   # 手動実行も可能にする
   workflow_dispatch:
 
+# 追加：GitHub Actionsにリポジトリコンテンツの書き込み権限を付与
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
