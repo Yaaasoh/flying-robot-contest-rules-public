@@ -1,0 +1,6 @@
+以下のコマンドをターミナルで実行してください：
+
+cd C:\Users\miyagawa\github\flying-robot-contest-rules-public
+git add docs/index.md docs/stylesheets/extra.css
+git commit -m "Add emergency warning about test content and potential inaccuracies"
+git push origin main
