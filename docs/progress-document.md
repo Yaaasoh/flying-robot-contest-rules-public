@@ -23,12 +23,27 @@
   - `docs/assets/stylesheets/extra.css` - カスタムスタイル
   - `.github/workflows/docs.yml` - 自動ビルド設定
 
-### 公開に向けた設定
+### 公開環境の整備（完了）
 
 - **GitHub Pages**
-  - `docs/GITHUB_PAGES_SETUP.md` - 設定ガイド
-  - GitHub Actionsによる自動デプロイ
-  - ドキュメント表示の最適化
+  - サイト公開URL: https://yaaasoh.github.io/flying-robot-contest-rules-public/
+  - GitHub Actionsによる自動デプロイ設定
+  - Jekyll処理の無効化（`.nojekyll`ファイル追加）
+  - ワークフロー権限の適切な設定（`permissions: contents: write`）
+  - `gh-pages`ブランチの作成と設定
+
+## 最近の更新内容
+
+- **2025年3月11日**
+  - GitHub Pages設定の問題を解決
+  - ワークフローファイルに適切な権限設定を追加
+  - `gh-pages`ブランチを作成してデプロイ先を設定
+  - サイトの公開を開始
+
+- **2025年3月10日**
+  - ベースとなるドキュメント構造の整備
+  - 各種ディレクトリと説明ファイルの作成
+  - MkDocs設定と自動ビルドワークフローの設定
 
 ## 今後の更新予定
 
