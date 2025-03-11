@@ -1,0 +1,12 @@
+﻿/* 警告バナー */
+.warning-banner {
+  background-color: #ffeb3b;
+  color: #f44336;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 2px solid #f44336;
+}
