@@ -1,0 +1,38 @@
+﻿site_name: 飛行ロボットコンテスト ルール管理
+site_url: https://Yaaasoh.github.io/flying-robot-contest-rules-public/
+theme:
+  name: material
+  language: ja
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.top
+    - navigation.sections
+    - navigation.indexes
+  palette:
+    primary: indigo
+    accent: indigo
+
+nav:
+  - ホーム: index.md
+  - 一般部門ルール: regular/index.md
+  - ビギナー部門ルール: beginner/index.md
+  - 画像ギャラリー: images-gallery.md
+  - ドキュメント:
+    - 進捗状況: progress-document.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
