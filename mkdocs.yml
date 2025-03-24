@@ -9,25 +9,28 @@ theme:
     - navigation.expand
     - navigation.top
     - navigation.sections
-    - navigation.indexes
+    - toc.integrate
+    - search.highlight
   palette:
     primary: red
     accent: red
 
 nav:
   - ホーム: index.md
-  - 一般部門ルール: regular/index.md
-  - ビギナー部門ルール: beginner/index.md
-  - 画像ギャラリー: images-gallery.md
+  - 通常部門ルール: 20FlyRobo_ip_Regulations_text.md
+  - ビギナー部門ルール: 20FlyRobo_Beginner_Regulations_text.md
 
 markdown_extensions:
   - attr_list
   - md_in_html
   - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - footnotes
   - tables
   - toc:
       permalink: true
+      toc_depth: 3
 
 extra_css:
   - stylesheets/extra.css
