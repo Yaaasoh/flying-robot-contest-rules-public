@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- フィールド背景 -->
+  <rect x="50" y="50" width="700" height="500" fill="#e0e0e0" stroke="#333333" stroke-width="2"/>
+  
+  <!-- 滑走路 -->
+  <rect x="100" y="250" width="600" height="100" fill="#a0a0a0" stroke="#333333" stroke-width="2"/>
+  
+  <!-- スタートエリア -->
+  <rect x="100" y="250" width="100" height="100" fill="#90ee90" stroke="#333333" stroke-width="2"/>
+  <text x="150" y="300" font-family="Arial" font-size="16" text-anchor="middle">スタート</text>
+  
+  <!-- ミッションエリア -->
+  <rect x="300" y="150" width="200" height="300" fill="#add8e6" stroke="#333333" stroke-width="2"/>
+  <text x="400" y="300" font-family="Arial" font-size="16" text-anchor="middle">ミッションエリア</text>
+  
+  <!-- ゴールエリア -->
+  <rect x="600" y="250" width="100" height="100" fill="#ffa07a" stroke="#333333" stroke-width="2"/>
+  <text x="650" y="300" font-family="Arial" font-size="16" text-anchor="middle">ゴール</text>
+  
+  <!-- マーカーコーン -->
+  <circle cx="300" cy="250" r="10" fill="#ff6347" stroke="#333333" stroke-width="1"/>
+  <circle cx="300" cy="350" r="10" fill="#ff6347" stroke="#333333" stroke-width="1"/>
+  <circle cx="500" cy="250" r="10" fill="#ff6347" stroke="#333333" stroke-width="1"/>
+  <circle cx="500" cy="350" r="10" fill="#ff6347" stroke="#333333" stroke-width="1"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="30" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">2024年度 飛行ロボットコンテスト フィールドレイアウト</text>
+  
+  <!-- 注釈 -->
+  <text x="400" y="580" font-family="Arial" font-size="12" text-anchor="middle">※この図はサンプルです。実際の寸法や配置は競技規定を参照してください。</text>
+</svg>

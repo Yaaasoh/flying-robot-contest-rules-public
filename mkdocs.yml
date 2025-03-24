@@ -1,4 +1,4 @@
-ï»¿site_name: "[ãƒ†ã‚¹ãƒˆç”¨] é£›è¡Œãƒ­ãƒœãƒƒãƒˆã‚³ãƒ³ãƒ†ã‚¹ãƒˆ ãƒ«ãƒ¼ãƒ«ç®¡ç†"
+site_name: "[ƒeƒXƒg—p] ”òsƒƒ{ƒbƒgƒRƒ“ƒeƒXƒg ƒ‹[ƒ‹ŠÇ—"
 site_url: https://yaaasoh.github.io/flying-robot-contest-rules-public/
 theme:
   name: material
@@ -16,9 +16,9 @@ theme:
     accent: red
 
 nav:
-  - ãƒ›ãƒ¼ãƒ : index.md
-  - é€šå¸¸éƒ¨é–€ãƒ«ãƒ¼ãƒ«: 20FlyRobo_ip_Regulations_text.md
-  - ãƒ“ã‚®ãƒŠãƒ¼éƒ¨é–€ãƒ«ãƒ¼ãƒ«: 20FlyRobo_Beginner_Regulations_text.md
+  - ƒz[ƒ€: index.md
+  - ’Êí•”–åƒ‹[ƒ‹: 20FlyRobo_ip_Regulations_text.md
+  - ƒrƒMƒi[•”–åƒ‹[ƒ‹: 20FlyRobo_Beginner_Regulations_text.md
 
 markdown_extensions:
   - attr_list
@@ -37,3 +37,4 @@ extra_css:
 
 plugins:
   - search
+
