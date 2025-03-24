@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="600" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect x="0" y="0" width="600" height="500" fill="#f0f0f0"/>
+  
+  <!-- 投下エリア -->
+  <circle cx="300" cy="300" r="100" fill="#add8e6" stroke="#333333" stroke-width="2"/>
+  <circle cx="300" cy="300" r="50" fill="#4682b4" stroke="#333333" stroke-width="2"/>
+  <circle cx="300" cy="300" r="10" fill="#000000"/>
+  
+  <!-- ドローン -->
+  <g transform="translate(300, 150)">
+    <!-- 機体 -->
+    <rect x="-30" y="-10" width="60" height="20" fill="#888888" stroke="#333333" stroke-width="1"/>
+    <!-- プロペラ -->
+    <line x1="-40" y1="-10" x2="-20" y2="-10" stroke="#333333" stroke-width="3"/>
+    <line x1="20" y1="-10" x2="40" y2="-10" stroke="#333333" stroke-width="3"/>
+    <!-- 脚 -->
+    <line x1="-20" y1="10" x2="-20" y2="20" stroke="#333333" stroke-width="1"/>
+    <line x1="20" y1="10" x2="20" y2="20" stroke="#333333" stroke-width="1"/>
+  </g>
+  
+  <!-- 救援物資 -->
+  <rect x="290" y="190" width="20" height="20" fill="#ff8c00" stroke="#333333" stroke-width="1"/>
+  
+  <!-- 投下軌道 -->
+  <path d="M300,210 Q300,250 300,290" stroke="#ff0000" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+  
+  <!-- 説明テキスト -->
+  <text x="300" y="30" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold">救援物資投下ミッション</text>
+  
+  <!-- ポイント説明 -->
+  <text x="500" y="120" font-family="Arial" font-size="14" text-anchor="middle">ポイント配分:</text>
+  <text x="500" y="150" font-family="Arial" font-size="14" text-anchor="middle">中心円内: 50点</text>
+  <text x="500" y="180" font-family="Arial" font-size="14" text-anchor="middle">外側円内: 20点</text>
+  <text x="500" y="210" font-family="Arial" font-size="14" text-anchor="middle">円外: 0点</text>
+  
+  <!-- 物資説明 -->
+  <text x="150" y="120" font-family="Arial" font-size="14" text-anchor="middle">救援物資:</text>
+  <text x="150" y="150" font-family="Arial" font-size="14" text-anchor="middle">重量: 10g以下</text>
+  <text x="150" y="180" font-family="Arial" font-size="14" text-anchor="middle">サイズ: 5cm四方以内</text>
+  
+  <!-- 注釈 -->
+  <text x="300" y="450" font-family="Arial" font-size="12" text-anchor="middle">※指定された高度から救援物資を投下し、</text>
+  <text x="300" y="470" font-family="Arial" font-size="12" text-anchor="middle">ターゲットにできるだけ近い位置に着地させるミッションです。</text>
+  <text x="300" y="490" font-family="Arial" font-size="12" text-anchor="middle">※この図はサンプルです。実際のルールや配点は競技規定を参照してください。</text>
+</svg>
