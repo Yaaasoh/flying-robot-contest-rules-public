@@ -1,19 +1,18 @@
-﻿# MkDocs ビルド成果物
+﻿# MkDocsビルド成果物
 site/
 
-# スクリプトとデバッグファイル
-*.py
-image_debug_results.json
+# キャッシュや一時ファイル
+__pycache__/
+*.py[cod]
+*$py.class
+.cache/
 
-# バックアップファイル
-*.backup
-*.backup-*
-*.backup[0-9]*
-backups/
+# エディタ設定
+.vscode/
+.idea/
+*.swp
+*~
 
-# メタデータファイル
-docs/metadata/*.json
-
-# その他の一時ファイル
-*.log
+# OS固有
 .DS_Store
+Thumbs.db
