@@ -1,19 +1,38 @@
-﻿# MkDocs ビルド成果物
+﻿# MkDocsビルド成果物
 site/
 
-# スクリプトとデバッグファイル
-*.py
-image_debug_results.json
+# Python関連
+__pycache__/
+*.py[cod]
+*$py.class
+.cache/
+.env
+.venv/
+env/
+venv/
+ENV/
 
-# バックアップファイル
-*.backup
-*.backup-*
-*.backup[0-9]*
-backups/
+# エディタ設定
+.vscode/
+.idea/
+*.swp
+*~
 
-# メタデータファイル
-docs/metadata/*.json
-
-# その他の一時ファイル
-*.log
+# OS固有ファイル
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# ローカルテスト用ファイル
+*.log
+*.bak
+*.backup
+*.tmp
+temp/
+tmp/
+
+# MkDocs関連
+.cache/
+
+# フォルダのコピー（git statusに表示されていた）
+flying-robot-contest-rules-public/
