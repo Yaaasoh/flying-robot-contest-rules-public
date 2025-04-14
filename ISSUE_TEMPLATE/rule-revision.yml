@@ -1,0 +1,94 @@
+name: "ルール改訂提案"
+description: "飛行ロボコンのルール改訂を提案するためのテンプレート"
+title: "[部門名] 提案の概要"
+labels: []
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 対象セクション
+        **例**: `20FlyRobo_ip_Regulations_text.md > 3)飛行競技ルール（一般部門） > 13.無動力滑空`
+  - type: textarea
+    id: section
+    attributes:
+      label: 対象セクション
+      placeholder: ファイル名とセクション番号を明記してください
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 現行ルール
+        現行ルールの該当箇所をそのまま貼り付けてください（タブインデントを維持）
+  - type: textarea
+    id: current
+    attributes:
+      label: 現行ルール
+      description: コードブロック（```)で囲むことを推奨します
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 改訂案
+        RED/DELマーカーを使用してください（例：`<!-- RED_START -->` 〜 `<!-- RED_END -->`）
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 改訂案
+      description: コードブロック（```)で囲むことを推奨します
+    validations:
+      required: true
+
+  - type: textarea
+    id: diff
+    attributes:
+      label: 差分表示（Unified Diff形式）
+      description: 任意（レビュー補助用）
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: 改訂理由
+      description: 箇条書きを推奨します
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: 影響範囲
+      description: 審査・運営・設備などへの影響を記載
+
+  - type: textarea
+    id: needs
+    attributes:
+      label: 実装に必要なもの
+      description: システム改修、運営体制の変更、ガイドライン整備など
+
+  - type: textarea
+    id: validation
+    attributes:
+      label: 検証方法
+      description: 模擬競技や過去大会の再計算など
+
+  - type: textarea
+    id: references
+    attributes:
+      label: 関連Issue・参考資料
+      description: Issue番号や外部リンク
+
+  - type: markdown
+    attributes:
+      value: |
+        ## メタデータ（ラベル用）
+        以下は記載のみでOKです（ラベル選択はUIで）
+
+        - 部門カテゴリ（例：全部門共通、一般部門、ビギナー部門など）
+        - 変更タイプ（例：新規追加、既存ルール修正、ルール削除など）
+        - 進行状況（例：議論中、レビュー中、承認済みなど）
+        - 優先度（例：高、中、低）
