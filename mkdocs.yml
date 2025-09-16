@@ -6,8 +6,8 @@ repo_name: yaaasoh/flying-robot-contest-rules-public
 
 nav:
   - ホーム: index.md
-  - 第21回ルール（最新）:
-    - 通常部門（一般・自動・UD・マルチ）: 21FlyRobo_GeneralAutoUniqueMulti_Regulations_text.md
+  - 第21回ルール:
+    - 一般・自動操縦・ユニークデザイン・マルチコプター部門: 21FlyRobo_GeneralAutoUniqueMulti_Regulations_text.md
     - ビギナー部門: 21FlyRobo_Beginner_Regulations_text.md
   - 第20回ルール（アーカイブ）:
     - 通常部門: 20FlyRobo_ip_Regulations_text.md
