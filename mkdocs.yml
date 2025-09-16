@@ -1,5 +1,18 @@
-﻿site_name: "[テスト用] 飛行ロボットコンテスト ルール管理"
+﻿site_name: "第21回 全日本学生室内飛行ロボットコンテスト ルール"
+site_description: "第21回大会のルール文書を掲載しています"
 site_url: https://yaaasoh.github.io/flying-robot-contest-rules-public/
+repo_url: https://github.com/yaaasoh/flying-robot-contest-rules-public
+repo_name: yaaasoh/flying-robot-contest-rules-public
+
+nav:
+  - ホーム: index.md
+  - 第21回ルール:
+    - 一般・自動操縦・ユニークデザイン・マルチコプター部門: 21FlyRobo_GeneralAutoUniqueMulti_Regulations_text.md
+    - ビギナー部門: 21FlyRobo_Beginner_Regulations_text.md
+  - 第20回ルール（アーカイブ）:
+    - 通常部門: 20FlyRobo_ip_Regulations_text.md
+    - ビギナー部門: 20FlyRobo_Beginner_Regulations_text.md
+
 theme:
   name: material
   language: ja
@@ -13,13 +26,18 @@ theme:
     - content.tabs.link
     - search.highlight
   palette:
-    primary: red
-    accent: red
-
-nav:
-  - ホーム: index.md
-  - 通常部門ルール: 20FlyRobo_ip_Regulations_text.md
-  - ビギナー部門ルール: 20FlyRobo_Beginner_Regulations_text.md
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: ダークモードに切り替え
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: ライトモードに切り替え
 
 markdown_extensions:
   - attr_list
@@ -37,4 +55,5 @@ extra_css:
   - stylesheets/extra.css
 
 plugins:
-  - search
+  - search:
+      lang: ja
