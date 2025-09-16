@@ -1,38 +1,54 @@
-﻿# MkDocsビルド成果物
-site/
+﻿# 作業用ファイル
+*_EDIT.md
+*_WORK.md
+*_MANUAL*.md
+*_FIXED.md
+*_FOR_EDIT.md
+*.backup_*
 
-# Python関連
+# 分析・調査スクリプト
+analyze_*.py
+investigate_*.py
+extract_*.ps1
+find_*.ps1
+quick_analysis.py
+
+# 作業ディレクトリ
+.claude/
+phase1_work/
+outputs/
+backups/
+docs/.claude/
+docs/backups/
+
+# プロジェクト管理（バックアップ済み）
+project_management/
+scripts/
+
+# ガイドドキュメント（作業用）
+CLAUDE_CODE_GUIDE.md
+README_image_work.md
+DEPLOYMENT_SUCCESS.md
+
+# HTMLファイル（一時的な作業用）
+*.html
+
+# Python/開発関連
 __pycache__/
 *.py[cod]
 *$py.class
-.cache/
-.env
 .venv/
-env/
-venv/
-ENV/
+.env
 
-# エディタ設定
-.vscode/
-.idea/
-*.swp
-*~
+# PR #4作業後の追加ファイル（2025/09/16）
+MERGE_SUCCESS.md
+PRODUCTION_CHECKLIST.md
+PROJECT_SUMMARY_21ST_IMAGE_FIX.md
+DEPLOYMENT_SUCCESS.md
+investigate_images.ps1
+docs/temp/
 
-# OS固有ファイル
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# ローカルテスト用ファイル
-*.log
-*.bak
-*.backup
-*.tmp
-temp/
-tmp/
-
-# MkDocs関連
-.cache/
-
-# フォルダのコピー（git statusに表示されていた）
-flying-robot-contest-rules-public/
+# 分析スクリプト（PR #4でマージされたもの以外）
+analyze_images.ps1
+phase1_image_analysis.ps1
+safety_check.ps1
