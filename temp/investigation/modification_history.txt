@@ -1,0 +1,132 @@
+=== 画像タグ変更履歴 ===
+作成日時: 2025/09/11 17:46:02
+
+修正前ファイル: 21FlyRobo_GeneralAutoUniqueMulti_Regulations_text_EDIT.md
+修正後ファイル: 21FlyRobo_GeneralAutoUniqueMulti_Regulations_text.md
+
+修正前の画像タグ数: 24
+修正後の画像タグ数: 24
+
+=== 詳細情報 ===
+
+【修正前の画像タグ】
+Line 176: ![][image10]
+Line 179: ![][image11]
+Line 182: ![][image5]
+Line 185: ![][image1]
+Line 188: ![][image13]
+Line 191: ![][image15]
+Line 193: ![][image12]
+Line 195: ![][image4]
+Line 198: ![][image5]
+Line 368: ![][image6]
+Line 437: ![][image7]
+Line 470: ![][image8]
+Line 637: ![][image9]
+Line 672: ![][image10]
+Line 781: ![][image6]
+Line 880: ![][image11]
+Line 915: ![][image12]
+Line 949: ![][image13]
+Line 1002: ![][image14]
+Line 1152: ![][image15]
+Line 1157: ![][image16]
+Line 1218: ![][image17]
+Line 1218: ![][image18]
+Line 1281: ![][image19]
+
+【修正後の画像タグ】
+Line 176: ![][image10]
+Line 179: ![][image11]
+Line 182: ![][image5]
+Line 185: ![][image1]
+Line 188: ![][image13]
+Line 191: ![][image15]
+Line 193: ![][image12]
+Line 195: ![][image4]
+Line 198: ![][image5]
+Line 368: ![][image6]
+Line 437: ![][image7]
+Line 470: ![][image8]
+Line 637: ![][image9]
+Line 672: ![][image10]
+Line 781: ![][image6]
+Line 880: ![][image11]
+Line 915: ![][image12]
+Line 949: ![][image13]
+Line 1002: ![][image14]
+Line 1152: ![][image15]
+Line 1157: ![][image16]
+Line 1218: ![][image17]
+Line 1218: ![][image18]
+Line 1281: ![][image19]
+
+=== 画像番号別の使用状況 ===
+
+image1:
+  修正前: 1回使用 (行: 185)
+  修正後: 1回使用 (行: 185)
+
+image4:
+  修正前: 1回使用 (行: 195)
+  修正後: 1回使用 (行: 195)
+
+image5:
+  修正前: 2回使用 (行: 182, 198)
+  修正後: 2回使用 (行: 182, 198)
+
+image6:
+  修正前: 2回使用 (行: 368, 781)
+  修正後: 2回使用 (行: 368, 781)
+
+image7:
+  修正前: 1回使用 (行: 437)
+  修正後: 1回使用 (行: 437)
+
+image8:
+  修正前: 1回使用 (行: 470)
+  修正後: 1回使用 (行: 470)
+
+image9:
+  修正前: 1回使用 (行: 637)
+  修正後: 1回使用 (行: 637)
+
+image10:
+  修正前: 2回使用 (行: 176, 672)
+  修正後: 2回使用 (行: 176, 672)
+
+image11:
+  修正前: 2回使用 (行: 179, 880)
+  修正後: 2回使用 (行: 179, 880)
+
+image12:
+  修正前: 2回使用 (行: 193, 915)
+  修正後: 2回使用 (行: 193, 915)
+
+image13:
+  修正前: 2回使用 (行: 188, 949)
+  修正後: 2回使用 (行: 188, 949)
+
+image14:
+  修正前: 1回使用 (行: 1002)
+  修正後: 1回使用 (行: 1002)
+
+image15:
+  修正前: 2回使用 (行: 191, 1152)
+  修正後: 2回使用 (行: 191, 1152)
+
+image16:
+  修正前: 1回使用 (行: 1157)
+  修正後: 1回使用 (行: 1157)
+
+image17:
+  修正前: 1回使用 (行: 1218)
+  修正後: 1回使用 (行: 1218)
+
+image18:
+  修正前: 1回使用 (行: 1218)
+  修正後: 1回使用 (行: 1218)
+
+image19:
+  修正前: 1回使用 (行: 1281)
+  修正後: 1回使用 (行: 1281)

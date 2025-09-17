@@ -1,0 +1,15 @@
+=== 画像マッピングエラー一覧 ===
+作成日時: 2025/09/11 17:47:53
+
+総画像数: 19
+エラー数: 1
+
+【エラー詳細】
+
+image15:
+  エラー: 期待値: images/equipment/equipment-ミニハードル_21.png, 実際: images/equipment/equipment-チキンラーメンmini_21.png
+  説明: ミニハードル
+
+=== 重複チェック ===
+警告: image15とimage16が同じファイルを参照しています
+  ファイル名: equipment-ミニハードル_21.png

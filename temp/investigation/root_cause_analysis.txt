@@ -1,0 +1,44 @@
+=== 部分修正による全体破壊の原因分析 ===
+作成日時: 2025/09/11 17:49:08
+
+## 1. 修正作業のタイムライン
+
+- 2025-08-05 20:04:53: index.md.backup_20th (1.02 KB)
+- 2025-08-05 20:04:53: index.md.backup_wrong_date (1.48 KB)
+- 2025-09-10 17:29:58: 21FlyRobo_GeneralAutoUniqueMulti_Regulations_text_EDIT.md.backup_20250910180919 (80.45 KB)
+- 2025-09-10 17:29:58: 21FlyRobo_GeneralAutoUniqueMulti_Regulations_text_EDIT.md.backup_20250910180919 (80.45 KB)
+- 2025-09-10 17:30:00: 21FlyRobo_Beginner_Regulations_text_EDIT.md.backup_20250911113015 (27.65 KB)
+- 2025-09-10 17:30:00: 21FlyRobo_Beginner_Regulations_text_EDIT.md.backup_20250911113015 (27.65 KB)
+- 2025-09-10 18:09:19: 21FlyRobo_GeneralAutoUniqueMulti_Regulations_text_EDIT.md.backup_20250911113004 (80.5 KB)
+- 2025-09-10 18:09:19: 21FlyRobo_GeneralAutoUniqueMulti_Regulations_text_EDIT.md.backup_20250911113004 (80.5 KB)
+
+## 2. 判明した問題点
+
+### 2.1 画像番号の重複問題
+- image15が「equipment-チキンラーメンmini_21.png」を参照（誤り）
+- 正しくは「equipment-ミニハードル_21.png」を参照すべき
+- image16も「equipment-ミニハードル_21.png」を参照（重複）
+
+### 2.2 キャプション問題
+- 「図　」で始まるキャプションが存在
+- 修正前後で20個のキャプションが存在（新規追加0件）
+- キャプション自体は問題なし
+
+### 2.3 部分修正の連鎖的影響
+- 画像参照システムは相互依存性が高い
+- 一箇所の誤りが全体の整合性を崩す
+- 画像番号とファイルパスの対応関係が崩れた
+
+## 3. 根本原因
+
+1. **手動での部分的な修正**: 自動化されていない修正作業により、一貫性が失われた
+2. **検証不足**: 修正後の整合性チェックが不十分だった
+3. **画像番号の管理ミス**: image15の参照先を誤って設定した
+4. **重複の見落とし**: image15とimage16の重複を見落とした
+
+## 4. 推奨される修正アプローチ
+
+1. 画像定義部分を一括で正しい内容に置換
+2. 特にimage15の定義を修正
+3. 全体の整合性を再確認
+4. 自動化ツールの使用を検討

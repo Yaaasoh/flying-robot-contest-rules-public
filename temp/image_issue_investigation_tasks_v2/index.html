@@ -1,0 +1,831 @@
+
+<!doctype html>
+<html lang="ja" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="第21回大会のルール文書を掲載しています">
+      
+      
+      
+        <link rel="canonical" href="https://yaaasoh.github.io/flying-robot-contest-rules-public/temp/image_issue_investigation_tasks_v2/">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
+    
+    
+      
+        <title>画像表示問題 - 経緯分析と調査タスクTODO - 第21回 全日本学生室内飛行ロボットコンテスト ルール</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4af4bdda.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#-todo" class="md-skip">
+          コンテンツにスキップ
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
+    <a href="../.." title="第21回 全日本学生室内飛行ロボットコンテスト ルール" class="md-header__button md-logo" aria-label="第21回 全日本学生室内飛行ロボットコンテスト ルール" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            第21回 全日本学生室内飛行ロボットコンテスト ルール
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              画像表示問題 - 経緯分析と調査タスクTODO
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="ダークモードに切り替え"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="ダークモードに切り替え" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="ライトモードに切り替え"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="ライトモードに切り替え" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="検索" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="検索">
+        
+        <button type="reset" class="md-search__icon md-icon" title="クリア" aria-label="クリア" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            検索を初期化
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/yaaasoh/flying-robot-contest-rules-public" title="リポジトリへ" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    yaaasoh/flying-robot-contest-rules-public
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="ナビゲーション" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="第21回 全日本学生室内飛行ロボットコンテスト ルール" class="md-nav__button md-logo" aria-label="第21回 全日本学生室内飛行ロボットコンテスト ルール" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    第21回 全日本学生室内飛行ロボットコンテスト ルール
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/yaaasoh/flying-robot-contest-rules-public" title="リポジトリへ" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    yaaasoh/flying-robot-contest-rules-public
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ホーム
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    第21回ルール
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            第21回ルール
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../21FlyRobo_GeneralAutoUniqueMulti_Regulations_text/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    一般・自動操縦・ユニークデザイン・マルチコプター部門
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../21FlyRobo_Beginner_Regulations_text/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ビギナー部門
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    第20回ルール（アーカイブ）
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            第20回ルール（アーカイブ）
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20FlyRobo_ip_Regulations_text/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    通常部門
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20FlyRobo_Beginner_Regulations_text/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ビギナー部門
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="-todo">画像表示問題 - 経緯分析と調査タスクTODO<a class="headerlink" href="#-todo" title="Permanent link">&para;</a></h1>
+<p>作成日: 2025/09/11
+文書ID: TASK-IMG-FIX-20250911
+実行者: Claude Code（予定）
+保存場所: C:/Users/xprin/github/flying-robot-contest-rules-public/docs/temp/</p>
+<h2 id="1">1. 問題発生の経緯<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
+<h3 id="11">1.1 本日の修正作業の概要<a class="headerlink" href="#11" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>作業内容</strong>: 21FlyRobo文書の画像タグを管理シートに基づいて一括置換</li>
+<li><strong>使用した方法</strong>: 画像番号（[image1]～[image19]）形式への統一</li>
+<li><strong>具体的な変更内容</strong>:</li>
+<li>画像参照形式の変更（例：直接URL → [imageN]形式）</li>
+<li>画像定義部分（ファイル末尾）の書き換え</li>
+<li>「図　」キャプションの追加（これが問題の原因）</li>
+<li><strong>作業時の状況</strong>: </li>
+<li>初期段階では正常に動作していた部分もあった</li>
+<li>部分修正を重ねるうちに全体的な不整合が発生</li>
+<li>画像番号の重複（image6とimage15が同じファイルを参照）が発生</li>
+</ul>
+<h3 id="12">1.2 発生した問題<a class="headerlink" href="#12" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>不要なキャプション追加</strong></li>
+<li>私が「図　」というキャプションを勝手に追加した箇所がある</li>
+<li>
+<p>元からあったキャプションとの区別が必要</p>
+</li>
+<li>
+<p><strong>画像参照の混乱</strong></p>
+</li>
+<li>画像番号と実際の画像ファイルの対応が崩れた</li>
+<li>
+<p>同じ画像への重複参照（例: [image6]と[image15]が同じチキンラーメンmini）</p>
+</li>
+<li>
+<p><strong>画像挿入位置の誤り</strong></p>
+</li>
+<li>セクション間で画像が入れ替わっている</li>
+<li>本来の位置とは異なる場所に画像が挿入されている</li>
+</ol>
+<h3 id="13">1.3 問題の深刻さ<a class="headerlink" href="#13" title="Permanent link">&para;</a></h3>
+<ul>
+<li>部分的な修正が全体の崩壊を招いた</li>
+<li>画像管理シートとの整合性が失われた可能性</li>
+<li>元の正常な状態への復旧が困難な状況</li>
+</ul>
+<h2 id="2-todo">2. 調査タスクTODO<a class="headerlink" href="#2-todo" title="Permanent link">&para;</a></h2>
+<h3 id="1_1">タスク1: 修正履歴の完全調査<a class="headerlink" href="#1_1" title="Permanent link">&para;</a></h3>
+<h4 id="_1">成果物<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><code>modification_history.txt</code> - 修正前後の画像タグ差分リスト</li>
+<li><code>image_tag_changes.csv</code> - 画像番号ごとの変更履歴表</li>
+</ul>
+<h4 id="_2">実行手順<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code><span class="c"># 作業ディレクトリ</span>
+<span class="nb">cd </span><span class="s2">&quot;C:\Users\xprin\github\flying-robot-contest-rules-public\docs&quot;</span>
+
+<span class="c"># 1. 修正前後のファイル特定と確認</span>
+<span class="nv">$editFile</span> <span class="p">=</span> <span class="s2">&quot;21FlyRobo_GeneralAutoUniqueMulti_Regulations_text_EDIT.md&quot;</span>
+<span class="nv">$currentFile</span> <span class="p">=</span> <span class="s2">&quot;21FlyRobo_GeneralAutoUniqueMulti_Regulations_text.md&quot;</span>
+
+<span class="c"># 2. 画像タグの抽出と比較</span>
+<span class="nv">$beforeTags</span> <span class="p">=</span> <span class="nb">Select-String</span> <span class="n">-Path</span> <span class="nv">$editFile</span> <span class="n">-Pattern</span> <span class="s2">&quot;!\[.*?\]\[image\d+\]&quot;</span> <span class="n">-AllMatches</span>
+<span class="nv">$afterTags</span> <span class="p">=</span> <span class="nb">Select-String</span> <span class="n">-Path</span> <span class="nv">$currentFile</span> <span class="n">-Pattern</span> <span class="s2">&quot;!\[.*?\]\[image\d+\]&quot;</span> <span class="n">-AllMatches</span>
+
+<span class="c"># 3. 成果物1: 差分リスト作成</span>
+<span class="nv">$output</span> <span class="p">=</span> <span class="p">@()</span>
+<span class="nv">$output</span> <span class="p">+=</span> <span class="s2">&quot;=== 画像タグ変更履歴 ===&quot;</span>
+<span class="nv">$output</span> <span class="p">+=</span> <span class="s2">&quot;作成日時: </span><span class="p">$(</span><span class="nb">Get-Date</span> <span class="n">-Format</span> <span class="s1">&#39;yyyy/MM/dd HH:mm:ss&#39;</span><span class="p">)</span><span class="s2">&quot;</span>
+<span class="nv">$output</span> <span class="p">+=</span> <span class="s2">&quot;&quot;</span>
+<span class="c"># 差分を詳細に記録</span>
+<span class="nv">$output</span> <span class="p">|</span> <span class="nb">Out-File</span> <span class="s2">&quot;temp\modification_history.txt&quot;</span> <span class="n">-Encoding</span> <span class="n">UTF8</span>
+</code></pre></div>
+<h3 id="2">タスク2: キャプション調査<a class="headerlink" href="#2" title="Permanent link">&para;</a></h3>
+<h4 id="_3">成果物<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h4>
+<ul>
+<li><code>caption_analysis.txt</code> - キャプションの新旧対比表</li>
+<li><code>captions_to_remove.txt</code> - 削除すべきキャプションリスト</li>
+<li><code>captions_to_keep.txt</code> - 保持すべきキャプションリスト</li>
+</ul>
+<h4 id="_4">実行手順<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code><span class="c"># 1. 修正前ファイルから元のキャプション抽出</span>
+<span class="nv">$originalCaptions</span> <span class="p">=</span> <span class="nb">Select-String</span> <span class="n">-Path</span> <span class="nv">$editFile</span> <span class="n">-Pattern</span> <span class="s2">&quot;^図　&quot;</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">LineNumber</span><span class="p">,</span> <span class="n">Line</span>
+<span class="nv">$originalCaptions</span> <span class="p">|</span> <span class="nb">Export-Csv</span> <span class="s2">&quot;temp\original_captions.csv&quot;</span> <span class="n">-NoTypeInformation</span> <span class="n">-Encoding</span> <span class="n">UTF8</span>
+
+<span class="c"># 2. 現在のファイルから全キャプション抽出</span>
+<span class="nv">$currentCaptions</span> <span class="p">=</span> <span class="nb">Select-String</span> <span class="n">-Path</span> <span class="nv">$currentFile</span> <span class="n">-Pattern</span> <span class="s2">&quot;^図　&quot;</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">LineNumber</span><span class="p">,</span> <span class="n">Line</span>
+<span class="nv">$currentCaptions</span> <span class="p">|</span> <span class="nb">Export-Csv</span> <span class="s2">&quot;temp\current_captions.csv&quot;</span> <span class="n">-NoTypeInformation</span> <span class="n">-Encoding</span> <span class="n">UTF8</span>
+
+<span class="c"># 3. 新規追加されたキャプションの特定</span>
+<span class="nv">$added</span> <span class="p">=</span> <span class="nb">Compare-Object</span> <span class="nv">$originalCaptions</span><span class="p">.</span><span class="n">Line</span> <span class="nv">$currentCaptions</span><span class="p">.</span><span class="n">Line</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span><span class="nv">$_</span><span class="p">.</span><span class="n">SideIndicator</span> <span class="o">-eq</span> <span class="s2">&quot;=&gt;&quot;</span><span class="p">}</span>
+<span class="nv">$added</span> <span class="p">|</span> <span class="nb">Out-File</span> <span class="s2">&quot;temp\captions_to_remove.txt&quot;</span> <span class="n">-Encoding</span> <span class="n">UTF8</span>
+</code></pre></div>
+<h3 id="3">タスク3: 画像管理シートとの整合性確認<a class="headerlink" href="#3" title="Permanent link">&para;</a></h3>
+<h4 id="_5">成果物<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h4>
+<ul>
+<li><code>image_mapping_table.csv</code> - 正しい画像番号とファイル名の対応表</li>
+<li><code>mapping_errors.txt</code> - 不整合箇所のリスト</li>
+<li><code>correct_image_definitions.txt</code> - 修正すべき画像定義</li>
+</ul>
+<h4 id="_6">実行手順<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code><span class="c"># 1. 画像管理情報の作成（プロジェクトナレッジベースから抽出）</span>
+<span class="nv">$imageMapping</span> <span class="p">=</span> <span class="sh">@&quot;</span>
+<span class="sh">image_number,file_name,category,description</span>
+<span class="sh">image1,missions-救援物資運搬ミッション図解_21.png,missions,救援物資運搬ミッション図解</span>
+<span class="sh">image2,missions-マルチコプター部門８の字飛行ミッション図解_21.png,missions,マルチコプター部門８の字飛行ミッション図解</span>
+<span class="sh">image3,equipment-マーカーコーン_21.png,equipment,マーカーコーン</span>
+<span class="sh">image4,missions-自動上昇旋回ミッション図解_21.png,missions,自動上昇旋回ミッション図解</span>
+<span class="sh">image5,field-物資投下エリア_21.png,field,物資投下エリア</span>
+<span class="sh">image6,equipment-チキンラーメンmini_21.png,equipment,チキンラーメンmini</span>
+<span class="sh">image7,equipment-識別用紙_正解の台_21.png,equipment,識別用紙_正解の台</span>
+<span class="sh">image8,missions-自動８の字飛行ミッション図解_21.png,missions,自動８の字飛行ミッション図解</span>
+<span class="sh">image9,missions-自動水平旋回ビギナー部門水平旋回ミッション図解_21.png,missions,自動水平旋回ビギナー部門水平旋回ミッション図解</span>
+<span class="sh">image10,field-一般部門_自動操縦部門_ユニークデザイン部門競技エリア_21.png,field,一般部門_自動操縦部門_ユニークデザイン部門競技エリア</span>
+<span class="sh">image11,field-一般部門_自動操縦部門_フィールドレイアウト全体図_21.png,field,一般部門_自動操縦部門_フィールドレイアウト全体図</span>
+<span class="sh">image12,field-マルチコプター部門_フィールドレイアウト全体図_21.png,field,マルチコプター部門_フィールドレイアウト全体図</span>
+<span class="sh">image13,equipment-滑走路_21.png,equipment,滑走路</span>
+<span class="sh">image14,missions-ポール旋回ミッション図解_21.png,missions,ポール旋回ミッション図解</span>
+<span class="sh">image15,equipment-ミニハードル_21.png,equipment,ミニハードル</span>
+<span class="sh">image16,equipment-ミニハードル_21.png,equipment,ミニハードル</span>
+<span class="sh">image17,equipment-高所物資運搬台_21.png,equipment,高所物資運搬台</span>
+<span class="sh">image18,equipment-チキンラーメン_21.png,equipment,チキンラーメン</span>
+<span class="sh">image19,missions-自動離着陸ミッション図解_21.png,missions,自動離着陸ミッション図解</span>
+<span class="sh">&quot;@</span>
+<span class="nv">$imageMapping</span> <span class="p">|</span> <span class="nb">Out-File</span> <span class="s2">&quot;temp\image_mapping_table.csv&quot;</span> <span class="n">-Encoding</span> <span class="n">UTF8</span>
+
+<span class="c"># 2. 現在の画像定義と比較</span>
+<span class="nv">$currentDefinitions</span> <span class="p">=</span> <span class="nb">Get-Content</span> <span class="nv">$currentFile</span> <span class="n">-Tail</span> <span class="n">30</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span><span class="nv">$_</span> <span class="o">-match</span> <span class="s2">&quot;^\[image\d+\]:&quot;</span><span class="p">}</span> 
+<span class="c"># 不整合を特定して記録</span>
+</code></pre></div>
+<h3 id="4">タスク4: 部分修正による全体破壊の原因分析<a class="headerlink" href="#4" title="Permanent link">&para;</a></h3>
+<h4 id="_7">成果物<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h4>
+<ul>
+<li><code>root_cause_analysis.txt</code> - 原因分析レポート</li>
+<li><code>modification_timeline.txt</code> - 修正作業のタイムライン</li>
+<li><code>impact_analysis.txt</code> - 影響範囲の詳細分析</li>
+</ul>
+<h4 id="_8">実行手順<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code><span class="c"># 1. バックアップファイルの時系列確認</span>
+<span class="nv">$backups</span> <span class="p">=</span> <span class="nb">Get-ChildItem</span> <span class="n">-Path</span> <span class="p">.</span> <span class="n">-Filter</span> <span class="s2">&quot;*backup*&quot;</span> <span class="p">|</span> <span class="nb">Sort-Object</span> <span class="n">LastWriteTime</span>
+<span class="nv">$timeline</span> <span class="p">=</span> <span class="p">@()</span>
+<span class="k">foreach</span> <span class="p">(</span><span class="nv">$backup</span> <span class="k">in</span> <span class="nv">$backups</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nv">$timeline</span> <span class="p">+=</span> <span class="no">[PSCustomObject]</span><span class="p">@{</span>
+        <span class="n">Time</span> <span class="p">=</span> <span class="nv">$backup</span><span class="p">.</span><span class="n">LastWriteTime</span>
+        <span class="n">File</span> <span class="p">=</span> <span class="nv">$backup</span><span class="p">.</span><span class="n">Name</span>
+        <span class="n">Size</span> <span class="p">=</span> <span class="no">[Math]</span><span class="p">::</span><span class="n">Round</span><span class="p">(</span><span class="nv">$backup</span><span class="p">.</span><span class="n">Length</span> <span class="p">/</span> <span class="n">1KB</span><span class="p">,</span> <span class="n">2</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="nv">$timeline</span> <span class="p">|</span> <span class="nb">Export-Csv</span> <span class="s2">&quot;temp\modification_timeline.csv&quot;</span> <span class="n">-NoTypeInformation</span>
+
+<span class="c"># 2. 各段階での変更内容を分析</span>
+<span class="c"># 画像番号の重複、参照の混乱などを特定</span>
+</code></pre></div>
+<h3 id="5">タスク5: 修正前後の詳細比較<a class="headerlink" href="#5" title="Permanent link">&para;</a></h3>
+<h4 id="_9">成果物<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h4>
+<ul>
+<li><code>image_tag_locations.csv</code> - 各画像タグの使用箇所一覧</li>
+<li><code>image_definitions_comparison.txt</code> - 画像定義部分の詳細比較</li>
+<li><code>section_impact_report.txt</code> - セクション別の影響度レポート</li>
+</ul>
+<h4 id="_10">実行手順<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code><span class="c"># 1. 画像タグの完全な位置情報を収集</span>
+<span class="nv">$sections</span> <span class="p">=</span> <span class="p">@(</span><span class="s2">&quot;共通ルール&quot;</span><span class="p">,</span> <span class="s2">&quot;一般部門&quot;</span><span class="p">,</span> <span class="s2">&quot;自動操縦部門&quot;</span><span class="p">,</span> <span class="s2">&quot;ユニークデザイン部門&quot;</span><span class="p">,</span> <span class="s2">&quot;マルチコプター部門&quot;</span><span class="p">)</span>
+<span class="nv">$tagLocations</span> <span class="p">=</span> <span class="p">@()</span>
+
+<span class="k">foreach</span> <span class="p">(</span><span class="nv">$section</span> <span class="k">in</span> <span class="nv">$sections</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nv">$sectionStart</span> <span class="p">=</span> <span class="nb">Select-String</span> <span class="n">-Path</span> <span class="nv">$currentFile</span> <span class="n">-Pattern</span> <span class="s2">&quot;# \d+\).*$section&quot;</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">-First</span> <span class="n">1</span>
+    <span class="c"># セクション内の画像タグを収集</span>
+<span class="p">}</span>
+<span class="nv">$tagLocations</span> <span class="p">|</span> <span class="nb">Export-Csv</span> <span class="s2">&quot;temp\image_tag_locations.csv&quot;</span> <span class="n">-NoTypeInformation</span>
+
+<span class="c"># 2. 画像定義部分の完全比較</span>
+<span class="nv">$beforeDefs</span> <span class="p">=</span> <span class="nb">Get-Content</span> <span class="nv">$editFile</span> <span class="n">-Tail</span> <span class="n">30</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span><span class="nv">$_</span> <span class="o">-match</span> <span class="s2">&quot;^\[image&quot;</span><span class="p">}</span>
+<span class="nv">$afterDefs</span> <span class="p">=</span> <span class="nb">Get-Content</span> <span class="nv">$currentFile</span> <span class="n">-Tail</span> <span class="n">30</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span><span class="nv">$_</span> <span class="o">-match</span> <span class="s2">&quot;^\[image&quot;</span><span class="p">}</span>
+<span class="nb">Compare-Object</span> <span class="nv">$beforeDefs</span> <span class="nv">$afterDefs</span> <span class="n">-IncludeEqual</span> <span class="p">|</span> <span class="nb">Out-File</span> <span class="s2">&quot;temp\image_definitions_comparison.txt&quot;</span>
+</code></pre></div>
+<h2 id="3_1">3. 調査優先順位<a class="headerlink" href="#3_1" title="Permanent link">&para;</a></h2>
+<h3 id="_11">最優先（即座に実施）<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
+<ol>
+<li>バックアップファイルの確保と保護</li>
+<li>修正前後の差分抽出</li>
+<li>追加されたキャプションの特定</li>
+</ol>
+<h3 id="_12">高優先（本日中に実施）<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
+<ol>
+<li>画像管理シートとの照合</li>
+<li>正しい画像マッピングの再構築</li>
+<li>原因分析</li>
+</ol>
+<h3 id="_13">中優先（明日以降）<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
+<ol>
+<li>修正手順の改善案作成</li>
+<li>再発防止策の策定</li>
+</ol>
+<h2 id="4_1">4. 調査に必要なファイル<a class="headerlink" href="#4_1" title="Permanent link">&para;</a></h2>
+<h3 id="_14">必須ファイル<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] <code>C:/Users/xprin/github/flying-robot-contest-rules-public/docs/21FlyRobo_GeneralAutoUniqueMulti_Regulations_text_EDIT.md</code>（修正前）</li>
+<li>[ ] <code>C:/Users/xprin/github/flying-robot-contest-rules-public/docs/21FlyRobo_GeneralAutoUniqueMulti_Regulations_text.md</code>（現在）</li>
+<li>[ ] <code>C:/Users/xprin/github/flying-robot-contest-rules-public/docs/20FlyRobo_ip_Regulations_text.md</code>（参考用）</li>
+<li>[ ] <code>C:/Users/xprin/github/flying-robot-contest-rules-public/docs/backups/21FlyRobo_GeneralAutoUniqueMulti_Regulations_text_20250911_165717.md</code>（タイムスタンプ付きバックアップ）</li>
+<li>[ ] プロジェクトナレッジベース内の画像管理シート情報</li>
+<li>[ ] 画像管理情報CSV（タスク3で作成）</li>
+<li>[ ] <code>C:/Users/xprin/github/flying-robot-contest-rules-public/docs/backups/21FlyRobo_GeneralAutoUniqueMulti_Regulations_text_EDIT.md</code>（バックアップフォルダ内のEDITファイル）</li>
+<li>[ ] <code>C:/Users/xprin/github/flying-robot-contest-rules-public/docs/21FlyRobo_GeneralAutoUniqueMulti_Regulations_text_EDIT.md.backup_20250910180919</code>（自動バックアップ）</li>
+<li>[ ] <code>C:/Users/xprin/github/flying-robot-contest-rules-public/docs/21FlyRobo_GeneralAutoUniqueMulti_Regulations_text_EDIT.md.backup_20250911113004</code>（自動バックアップ）</li>
+</ul>
+<h3 id="_15">画像ファイル<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] <code>C:/Users/xprin/github/flying-robot-contest-rules-public/docs/images/</code>（画像ディレクトリ）</li>
+<li>[ ] <code>field/</code>（フィールド関連画像）</li>
+<li>[ ] <code>equipment/</code>（装備品関連画像）</li>
+<li>[ ] <code>missions/</code>（ミッション図解画像）</li>
+</ul>
+<h2 id="5_1">5. 成果物保存場所<a class="headerlink" href="#5_1" title="Permanent link">&para;</a></h2>
+<p>すべての成果物は以下のディレクトリに保存する：
+<code>C:/Users/xprin/github/flying-robot-contest-rules-public/docs/temp/</code></p>
+<h3 id="_16">期待される成果物一覧<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h3>
+<ol>
+<li><code>modification_history.txt</code> - 修正履歴</li>
+<li><code>image_tag_changes.csv</code> - 画像タグ変更表</li>
+<li><code>caption_analysis.txt</code> - キャプション分析</li>
+<li><code>captions_to_remove.txt</code> - 削除対象キャプション</li>
+<li><code>captions_to_keep.txt</code> - 保持対象キャプション</li>
+<li><code>image_mapping_table.csv</code> - 画像マッピング表</li>
+<li><code>mapping_errors.txt</code> - マッピングエラー</li>
+<li><code>correct_image_definitions.txt</code> - 正しい画像定義</li>
+<li><code>root_cause_analysis.txt</code> - 原因分析</li>
+<li><code>modification_timeline.csv</code> - 修正タイムライン</li>
+<li><code>impact_analysis.txt</code> - 影響分析</li>
+<li><code>image_tag_locations.csv</code> - 画像タグ位置情報</li>
+<li><code>image_definitions_comparison.txt</code> - 画像定義比較</li>
+<li><code>section_impact_report.txt</code> - セクション影響レポート</li>
+</ol>
+<h2 id="6">6. 調査実行上の注意事項<a class="headerlink" href="#6" title="Permanent link">&para;</a></h2>
+<ol>
+<li><strong>ファイルサイズに注意</strong></li>
+<li>21FlyRobo_GeneralAutoUniqueMulti_Regulations_text.md は約967KB</li>
+<li>
+<p>全文読み込みは避け、部分的に処理すること</p>
+</li>
+<li>
+<p><strong>エンコーディング</strong></p>
+</li>
+<li>すべてUTF-8で統一</li>
+<li>
+<p>PowerShellでは <code>-Encoding UTF8</code> を必ず指定</p>
+</li>
+<li>
+<p><strong>作業前の確認</strong></p>
+</li>
+<li>バックアップの存在確認</li>
+<li>作業ディレクトリの確認</li>
+<li>権限の確認</li>
+</ol>
+<h2 id="7">7. 反省点と教訓<a class="headerlink" href="#7" title="Permanent link">&para;</a></h2>
+<h3 id="_17">今回の失敗から学ぶべきこと<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>部分修正のリスク</strong>: 画像参照システムは相互依存性が高く、部分的な変更が全体に波及する</li>
+<li><strong>事前検証の不足</strong>: 画像番号の重複や整合性チェックが不十分だった</li>
+<li><strong>キャプション追加の判断ミス</strong>: 元のフォーマットを十分に理解せずに「図　」キャプションを追加した</li>
+<li><strong>他ファイル参照の誤り</strong>: 20FlyRoboファイルを参考にするなど、関係ない情報を参照した</li>
+</ol>
+<h3 id="_18">今後の改善点<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h3>
+<ol>
+<li>修正前の完全な状態把握（21FlyRoboファイル内での一貫性確認）</li>
+<li>変更影響範囲の事前評価</li>
+<li>段階的な修正と都度の動作確認</li>
+<li>オリジナルフォーマットの尊重</li>
+<li>不必要なキャプション追加の回避</li>
+</ol>
+<h2 id="8">8. 次のステップ<a class="headerlink" href="#8" title="Permanent link">&para;</a></h2>
+<p>この調査タスクの実行により：
+1. 問題の全容を把握
+2. 修正すべき箇所を明確化
+3. 安全な修正手順を確立
+4. 再発防止策を策定</p>
+<p>調査結果に基づいて、慎重かつ確実な修正作業を行う。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  ページトップへ戻る
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.expand", "navigation.top", "navigation.sections", "toc.integrate", "content.tabs.link", "search.highlight"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>

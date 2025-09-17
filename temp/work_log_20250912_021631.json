@@ -1,0 +1,43 @@
+{
+  "session_id": "20250912_021631",
+  "start_time": "2025-09-12T02:16:31.470465",
+  "phases": [
+    {
+      "phase_name": "Backup",
+      "description": "安全バックアップの作成",
+      "start_time": "2025-09-12T02:16:31.470465",
+      "end_time": "2025-09-12T02:16:31.478610",
+      "status": "completed",
+      "commands": [],
+      "results": [
+        {
+          "result": "バックアップ完了: 21FlyRobo_GeneralAutoUniqueMulti_Regulations_text_EDIT.md",
+          "status": "success",
+          "timestamp": "2025-09-12T02:16:31.472452"
+        },
+        {
+          "result": "バックアップ完了: 21FlyRobo_Beginner_Regulations_text_EDIT.md",
+          "status": "success",
+          "timestamp": "2025-09-12T02:16:31.474452"
+        },
+        {
+          "result": "バックアップ完了: index.md",
+          "status": "success",
+          "timestamp": "2025-09-12T02:16:31.475448"
+        },
+        {
+          "result": "バックアップ完了: ../mkdocs.yml",
+          "status": "success",
+          "timestamp": "2025-09-12T02:16:31.477605"
+        }
+      ],
+      "errors": [],
+      "warnings": [],
+      "notes": "バックアップ先: temp\\backups\\safety_20250912_021631"
+    }
+  ],
+  "status": "failed",
+  "total_errors": 0,
+  "total_warnings": 0,
+  "end_time": "2025-09-12T02:16:31.479611"
+}

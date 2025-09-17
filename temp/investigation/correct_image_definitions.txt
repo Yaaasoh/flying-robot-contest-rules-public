@@ -1,0 +1,24 @@
+=== 正しい画像定義 ===
+作成日時: 2025/09/11 17:47:53
+
+以下の形式でファイル末尾に定義すべき内容：
+
+[image1]: images/missions/missions-救援物資運搬ミッション図解_21.png
+[image2]: images/missions/missions-マルチコプター部門８の字飛行ミッション図解_21.png
+[image3]: images/equipment/equipment-マーカーコーン_21.png
+[image4]: images/missions/missions-自動上昇旋回ミッション図解_21.png
+[image5]: images/field/field-物資投下エリア_21.png
+[image6]: images/equipment/equipment-チキンラーメンmini_21.png
+[image7]: images/equipment/equipment-識別用紙_正解の台_21.png
+[image8]: images/missions/missions-自動８の字飛行ミッション図解_21.png
+[image9]: images/missions/missions-自動水平旋回ビギナー部門水平旋回ミッション図解_21.png
+[image10]: images/field/field-一般部門_自動操縦部門_ユニークデザイン部門競技エリア_21.png
+[image11]: images/field/field-一般部門_自動操縦部門_フィールドレイアウト全体図_21.png
+[image12]: images/field/field-マルチコプター部門_フィールドレイアウト全体図_21.png
+[image13]: images/equipment/equipment-滑走路_21.png
+[image14]: images/missions/missions-ポール旋回ミッション図解_21.png
+[image15]: images/equipment/equipment-ミニハードル_21.png
+[image16]: images/equipment/equipment-ミニハードル_21.png
+[image17]: images/equipment/equipment-高所物資運搬台_21.png
+[image18]: images/equipment/equipment-チキンラーメン_21.png
+[image19]: images/missions/missions-自動離着陸ミッション図解_21.png
