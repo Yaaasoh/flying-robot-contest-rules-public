@@ -13,6 +13,21 @@
 - 効率的な画像ファイル管理手法のテスト
 - 共同編集ワークフローの実験
 
+## 📚 第21回大会ルール（2025年）
+
+### GitHub Pagesで閲覧
+- [一般・自動操縦・ユニークデザイン・マルチコプター部門](https://yaaasoh.github.io/flying-robot-contest-rules-public/21FlyRobo_GeneralAutoUniqueMulti_Regulations_text/)
+- [ビギナー部門](https://yaaasoh.github.io/flying-robot-contest-rules-public/21FlyRobo_Beginner_Regulations_text/)
+
+### ファイルを直接ダウンロード
+- [一般部門等（Markdown, 83KB）](https://raw.githubusercontent.com/Yaaasoh/flying-robot-contest-rules-public/main/docs/21FlyRobo_GeneralAutoUniqueMulti_Regulations_text.md)
+- [ビギナー部門（Markdown, 28KB）](https://raw.githubusercontent.com/Yaaasoh/flying-robot-contest-rules-public/main/docs/21FlyRobo_Beginner_Regulations_text.md)
+
+### リポジトリ統計
+- ルール文書: 9ファイル
+- 画像ファイル: 46枚（equipment: 15, field: 16, missions: 15）
+- 対応部門: 5部門（一般、自動操縦、ユニークデザイン、マルチコプター、ビギナー）
+
 ## 効率的なリポジトリ利用方法
 
 ### 必要なファイルだけをクローンする方法
